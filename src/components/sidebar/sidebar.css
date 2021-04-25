@@ -1,0 +1,56 @@
+
+.sidebar-container {
+    height: 412vh;
+    width: 15%;
+    background-color: brown;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+li{
+   text-decoration: none;
+   margin-top: 10px; 
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+aside li:hover {
+    color: black;
+}
+
+aside li a:focus {
+    color: black;
+    
+}
+
+.logos-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infoLogo {
+    width: 60px;
+    height: 60px;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+

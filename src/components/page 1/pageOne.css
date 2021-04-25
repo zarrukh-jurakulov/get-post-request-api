@@ -1,0 +1,39 @@
+#pageOne {
+    background-color: burlywood;
+    width: 85%;
+    height: 412vh;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows:  300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-gap: 10px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.pageOneCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.pageOneImg {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.pageOneInfoBtn {
+    padding: 5px;
+    background: none;
+    border: 1px solid black;
+    outline-style: none;
+    cursor: pointer;
+}
